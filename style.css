@@ -29,3 +29,7 @@ h4, p {
 .primary {color: var(--cyan);}
 .secondary {color: var(--bright-yellow);}
 .grey {color: var(--greyish-blue);}
+.off-white {color: rgba(255, 255, 255, 0.705);}
+
+.large-text {font-size: 1.5rem;}
+.small-text{font-size: 0.9rem;}
