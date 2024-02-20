@@ -59,3 +59,25 @@ h4, p {
     box-shadow: 0.1rem 0.1rem 0.9rem 0.2rem rgba(150, 148, 148, 0.25);
 }
 
+/* Header Section */
+.container #main-header {
+    padding: .15rem 1rem;
+}
+
+/* Price Section */
+.container #price {
+    background: var(--cyan);
+    padding: .15rem 1rem 1.5rem 1rem;
+    color: #fff;
+    border-bottom-left-radius: 4px;
+}
+
+/* About us */
+.container .about-us {
+    background: var(--off-cyan);
+    padding: .15rem 1rem .5rem 1rem;
+    color: #fff;
+    line-height: 0;
+    border-bottom-right-radius: 4px;
+  }
+
