@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+:root {
+    --light-grey: hsl(204, 43%, 93%)
+    --cyan: hsl(179, 62%, 43%)
+    --bright-yellow: hsl(71, 73%, 54%)
+    --greyish-blue: hsl(218, 22%, 67%)
+}
+
+/* Resets */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.6;
+}
