@@ -5,6 +5,7 @@
     --cyan: hsl(179, 62%, 43%);
     --bright-yellow: hsl(71, 73%, 54%);
     --greyish-blue: hsl(218, 22%, 67%);
+    --off-cyan: hsla(179, 62%, 43%, 0.699);
 }
 
 /* Resets */
@@ -51,3 +52,10 @@ h4, p {
     background: var(--light-grey);
     color: var(--cyan);
 }
+
+.container {
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0.1rem 0.1rem 0.9rem 0.2rem rgba(150, 148, 148, 0.25);
+}
+
