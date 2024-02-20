@@ -21,3 +21,11 @@ body {
     height: 100vh;
     padding: 5rem 2rem;
 }
+
+h4, p {
+    margin: 1rem 0;
+}
+
+.primary {color: var(--cyan);}
+.secondary {color: var(--bright-yellow);}
+.grey {color: var(--greyish-blue);}
