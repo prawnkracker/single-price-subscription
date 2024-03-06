@@ -73,7 +73,7 @@ h4, p {
 }
 
 /* About us */
-.container .about-us {
+.container #about-us {
     background: var(--off-cyan);
     padding: .15rem 1rem .5rem 1rem;
     color: #fff;
@@ -81,7 +81,7 @@ h4, p {
     border-bottom-right-radius: 4px;
 }
 
-.container .about-us p {
+.container #about-us p {
     font-size: .9rem;
     line-height: .15;
     color: rgba(255, 255, 255, 0.705);
@@ -107,11 +107,11 @@ h4, p {
     }
 
     .container #price,
-    .container .about-us {
+    .container #about-us {
         padding: 0.75rem 2rem;
     }
 
-    .container .about-us p {
+    .container #about-us p {
         line-height: 0.4;
     }
 }
