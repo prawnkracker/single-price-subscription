@@ -163,3 +163,7 @@ h4, p {
 input:checked + .slider {
     background-color: #2196F3;
 }
+
+input:checked + .slider:before {
+    transform: translate(26px)
+}
