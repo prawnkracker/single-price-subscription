@@ -4,9 +4,10 @@ const body = document.querySelector('body')
 
 darkModeToggle.addEventListener('change', () => {
     if (darkModeToggle.checked){
-        container.classList.add('dark-mode')
-        body.classList.add('dark-mode')
+        container.classList.add('dark-mode');
+        body.classList.add('dark-mode');
     } else {
         container.classList.remove('dark-mode');
+        body.classList.remove('dark-mode')
     }
 });
